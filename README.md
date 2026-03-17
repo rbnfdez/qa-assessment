@@ -6,30 +6,11 @@ This is an **AI agent skill** — it runs inside your AI coding assistant (Curso
 Your terminal is only used to **install** it. After that, you talk to your agent.
 ---
 ## Installation
-
-Choose the method for your agent:
-
-### Cursor / Windsurf / Cline / Copilot
-
-1. Copy the `qa-assessment/` folder into your project's `.cursor/skills/` (or equivalent) directory.
-2. Or copy it globally to `~/.cursor/skills/` so it's available in every project.
-
-### Claude Code
-
-1. Copy `qa-assessment/SKILL.md` to your project commands folder:
+Run this once in your terminal:
 ```bash
-mkdir -p .claude/commands
-cp qa-assessment/SKILL.md .claude/commands/qa-assessment.md
+npx qa-assessment
 ```
-2. Or install it globally:
-```bash
-mkdir -p ~/.claude/commands
-cp qa-assessment/SKILL.md ~/.claude/commands/qa-assessment.md
-```
-
-### Any agent that reads markdown
-
-Point your agent to `qa-assessment/SKILL.md` — it contains all the instructions, questions, and scoring logic.
+The installer will ask you where to install (Claude Code, Cursor, Windsurf…) and whether to install at project or global level.
 
 ---
 ## How to use it
@@ -119,6 +100,8 @@ This skill is the **free tier**. It gives you a directional view of where your t
 ---
 ## File structure
 ```
+├── bin/
+│   └── install.js              ← npx installer script
 ├── qa-assessment/
 │   ├── SKILL.md                ← agent instructions (the skill entrypoint)
 │   ├── questions/

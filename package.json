@@ -2,7 +2,11 @@
   "name": "qa-assessment",
   "version": "1.0.0",
   "description": "QA & Software Quality Maturity Assessment skill for Claude Code, Cursor, and Windsurf",
+  "bin": {
+    "qa-assessment": "./bin/install.js"
+  },
   "files": [
+    "bin/",
     "qa-assessment/SKILL.md",
     "qa-assessment/questions/",
     "qa-assessment/scoring/"
