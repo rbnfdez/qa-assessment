@@ -6,15 +6,35 @@ This is an **AI agent skill** — it runs inside your AI coding assistant (Curso
 Your terminal is only used to **install** it. After that, you talk to your agent.
 ---
 ## Installation
-Run this once in your terminal:
-```javascript
-npx skills add rbnfdez/qa-assessment
+
+Choose the method for your agent:
+
+### Cursor / Windsurf / Cline / Copilot
+
+1. Copy the `qa-assessment/` folder into your project's `.cursor/skills/` (or equivalent) directory.
+2. Or copy it globally to `~/.cursor/skills/` so it's available in every project.
+
+### Claude Code
+
+1. Copy `qa-assessment/SKILL.md` to your project commands folder:
+```bash
+mkdir -p .claude/commands
+cp qa-assessment/SKILL.md .claude/commands/qa-assessment.md
 ```
-The installer will ask you which agents to install to (Cursor, Claude Code, Windsurf, Copilot, etc.) and whether to install at project or global level.
+2. Or install it globally:
+```bash
+mkdir -p ~/.claude/commands
+cp qa-assessment/SKILL.md ~/.claude/commands/qa-assessment.md
+```
+
+### Any agent that reads markdown
+
+Point your agent to `qa-assessment/SKILL.md` — it contains all the instructions, questions, and scoring logic.
+
 ---
 ## How to use it
 **After installation, open your AI agent and type:**
-```javascript
+```
 Run the QA assessment
 ```
 That's it. The agent takes over from there.
@@ -98,8 +118,7 @@ This skill is the **free tier**. It gives you a directional view of where your t
 **👉 Book the Full Assessment: **[**qevolution.tech**](https://www.qevolution.tech/) **📧 Contact: **[**info@qevolution.tech**](mailto:info@qevolution.tech)
 ---
 ## File structure
-```javascript
-qa-assessment/
+```
 ├── qa-assessment/
 │   ├── SKILL.md                ← agent instructions (the skill entrypoint)
 │   ├── questions/
@@ -108,7 +127,6 @@ qa-assessment/
 │       └── rubric.md           ← scoring logic and interpretation guide
 ├── README.md
 └── package.json
-
 ```
 ---
 ## Contributing
