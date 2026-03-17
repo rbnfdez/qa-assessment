@@ -8,9 +8,9 @@ Your terminal is only used to **install** it. After that, you talk to your agent
 ## Installation
 Run this once in your terminal:
 ```bash
-npx qa-assessment
+npx skills add qevolution/qassessment
 ```
-The installer will ask you where to install (Claude Code, Cursor, Windsurf…) and whether to install at project or global level.
+The installer will ask you which agents to install to (Cursor, Claude Code, Windsurf, Copilot, etc.) and whether to install at project or global level.
 
 ---
 ## How to use it
@@ -100,8 +100,6 @@ This skill is the **free tier**. It gives you a directional view of where your t
 ---
 ## File structure
 ```
-├── bin/
-│   └── install.js              ← npx installer script
 ├── qa-assessment/
 │   ├── SKILL.md                ← agent instructions (the skill entrypoint)
 │   ├── questions/
