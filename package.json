@@ -6,7 +6,6 @@
     "qa-assessment": "./bin/install.js"
   },
   "files": [
-    "bin/",
     "SKILL.md",
     "questions/",
     "scoring/"
