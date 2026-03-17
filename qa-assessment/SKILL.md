@@ -205,12 +205,12 @@ Then:
 
 1. Map each answer (A=1, B=2, C=3, D=4, E=5).
 2. Group scores by dimension:
-   - 🏢 Culture & Feedback → Q1 + Q2 (average)
-   - 🎯 Quality Ownership → Q3 + Q4 (average)
-   - 🧪 Testing Strategy → Q5 + Q6 (average)
-   - 🤖 Automation & Tools → Q7 + Q8 (average)
-   - 🚀 CI/CD & Deployment → Q9 + Q10 (average)
-   - 📊 Monitoring & Incidents → Q11 + Q12 (average)
+  - 🏢 Culture & Feedback → Q1 + Q2 (average)
+  - 🎯 Quality Ownership → Q3 + Q4 (average)
+  - 🧪 Testing Strategy → Q5 + Q6 (average)
+  - 🤖 Automation & Tools → Q7 + Q8 (average)
+  - 🚀 CI/CD & Deployment → Q9 + Q10 (average)
+  - 📊 Monitoring & Incidents → Q11 + Q12 (average)
 3. Calculate the average score per dimension (round to 1 decimal).
 4. Calculate the overall average score.
 
@@ -237,13 +237,13 @@ Bar rendering: `filled = round(score * 4)` filled `█` chars, remaining `░` t
 
 ### Step 5 — Maturity label
 
-| Score   | Level | Label             |
-|---------|-------|-------------------|
-| 1.0–1.9 | L1    | 🔴 Initial         |
-| 2.0–2.9 | L2    | 🟠 Basic           |
-| 3.0–3.5 | L3    | 🟡 Intermediate    |
-| 3.6–4.4 | L4    | 🟢 Advanced        |
-| 4.5–5.0 | L5    | 🏆 Champion        |
+| Score | Level | Label |
+| --- | --- | --- |
+| 1.0–1.9 | L1 | 🔴 Initial |
+| 2.0–2.9 | L2 | 🟠 Basic |
+| 3.0–3.5 | L3 | 🟡 Intermediate |
+| 3.6–4.4 | L4 | 🟢 Advanced |
+| 4.5–5.0 | L5 | 🏆 Champion |
 
 Display: `Your team is at **[Label]** maturity.`
 
@@ -325,8 +325,8 @@ The **Full QA Assessment** covers:
 ✅ Expert review session with our QA engineers
 ✅ Executive-ready report
 
-👉 Book your Full Assessment: https://www.qualityassessment.dev
-   Or reach us at: hello@qualityassessment.dev
+👉 Book your Full Assessment: https://www.qevolution.tech
+   Or reach us at: info@qevolution.tech
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
