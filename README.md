@@ -14,10 +14,17 @@ The installer will ask you which agents to install to (Cursor, Claude Code, Wind
 
 ---
 ## How to use it
-**After installation, open your AI agent and type:**
-```
-Run the QA assessment
-```
+**After installation, open your AI agent and start the skill:**
+
+| Agent | How to run it |
+| --- | --- |
+| **Claude Code** | Type `/qa-assessment` in the chat |
+| **Cursor** | Type `Run the QA assessment` in the chat (`Cmd+L`) |
+| **Windsurf** | Type `Run the QA assessment` in Cascade |
+| **GitHub Copilot** | Type `Run the QA assessment` in the chat (`Cmd+Shift+I`) |
+| **Cline** | Type `Run the QA assessment` in the Cline panel |
+| **Codex** | Type `Run the QA assessment` in the chat |
+
 That's it. The agent takes over from there.
 It will:
 1. Welcome you and explain the process
@@ -26,17 +33,6 @@ It will:
 4. Show you a radar chart with your maturity level
 5. Give you 3 concrete recommendations based on your weakest areas
 > 💡 The skill auto-detects the language you write in. Answer in English → assessment in English. Answer in Spanish → assessment in Spanish.
----
-## Supported agents
-Install once, works across all of these:
-| Agent | How to open the chat |
-| --- | --- |
-| **Cursor** | `Cmd+L` or `Cmd+I` → type in the chat panel |
-| **Claude Code** | Run `claude` in your terminal → type in the chat |
-| **Windsurf** | Open the Cascade panel → type in the chat |
-| **GitHub Copilot** | `Cmd+Shift+I` in VS Code → type in the chat |
-| **Cline** | Open Cline panel in VS Code → type in the chat |
-| **Codex** | Open Codex chat → type in the chat |
 ---
 ## What the assessment covers
 12 questions across 6 dimensions, based on the QPAM framework and validated QA consulting criteria:
