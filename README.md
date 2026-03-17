@@ -37,7 +37,7 @@ It will:
 > 💡 The skill auto-detects the language you write in. Answer in English → assessment in English. Answer in Spanish → assessment in Spanish.
 ---
 ## What the assessment covers
-12 questions across 6 dimensions, based on the QPAM framework and validated QA consulting criteria:
+12 questions across 6 dimensions, based on a validated QA consulting criteria:
 | # | Dimension | What it evaluates |
 | --- | --- | --- |
 | 1 | 🏢 Culture & Feedback | Retrospectives, technical debt, process improvement |
