@@ -76,7 +76,6 @@ Your team is at 🟠 L2 — Basic maturity.
 1. Quality Ownership — Include QA in story refinement from day one...
 2. Monitoring & Incidents — Define SLIs/SLOs and run blameless post-mortems...
 3. Automation & Tools — Document and publish your automation strategy...
-
 ```
 ---
 ## Free vs. Full Assessment
@@ -92,7 +91,7 @@ This skill is the **free tier**. It gives you a directional view of where your t
 | Expert review session | ❌ | ✅ |
 | Executive-ready report | ❌ | ✅ |
 | Security & FinOps dimensions | ❌ | ✅ |
-**👉 Book the Full Assessment: **[**qevolution.tech**](https://www.qevolution.tech/) **📧 Contact: **[**info@qevolution.tech**](mailto:info@qevolution.tech)
+**👉 Book the Full Assessment: **[**qevolution.tech**](https://www.qevolution.tech/) **📧 Contact: **[mailto:info@qevolution.tech](./mailto:info@qevolution.tech)
 ---
 ## File structure
 ```
