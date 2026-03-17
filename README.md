@@ -1,9 +1,11 @@
 # QA Assessment — Free Agent Skill
 > A conversational QA maturity assessment for AI agents. Ask your agent to run it — it interviews your team, scores 6 dimensions, and gives you a radar chart with actionable recommendations in ~5 minutes.
+
 ---
 ## ⚠️ This is not a CLI tool
 This is an **AI agent skill** — it runs inside your AI coding assistant (Cursor, Claude Code, Windsurf, etc.), not in your terminal.
 Your terminal is only used to **install** it. After that, you talk to your agent.
+
 ---
 ## Installation
 Run this once in your terminal:
@@ -74,7 +76,7 @@ Your team is at 🟠 L2 — Basic maturity.
 
 🔧 Top 3 recommendations:
 1. Quality Ownership — Include QA in story refinement from day one...
-2. Monitoring & Incidents — Define SLIs/SLOs and run blameless post-mortems...
+2. Monitoring & Incidents — Define SLAs/SLOs and run blameless post-mortems...
 3. Automation & Tools — Document and publish your automation strategy...
 ```
 ---
@@ -107,6 +109,7 @@ This skill is the **free tier**. It gives you a directional view of where your t
 ---
 ## Contributing
 Spotted a question that could be sharper? A scoring edge case? A missing dimension? Open a PR or an issue — contributions welcome.
+
 ---
 ## License
 MIT — free to use, fork, and adapt. Attribution appreciated.
