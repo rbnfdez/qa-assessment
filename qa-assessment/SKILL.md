@@ -47,6 +47,33 @@ Then read **`scoring/rubric.md`** and follow its instructions to:
 5. Write 2–3 sentences interpreting strongest and weakest dimensions
 6. Give top 3 recommendations based on the two lowest dimensions
 
+After the radar chart and recommendations, present all results in a **copy-paste friendly block** using plain text (no markdown formatting inside the block). Example:
+
+```
+--- QA MATURITY ASSESSMENT RESULTS ---
+
+Date: [YYYY-MM-DD]
+
+Dimensions:
+  Culture & Feedback:       3.5/5
+  Quality Ownership:        2.0/5
+  Testing Strategy:         3.0/5
+  Automation & Tools:       2.5/5
+  CI/CD & Deployment:       4.0/5
+  Monitoring & Incidents:   2.0/5
+
+Overall: 2.8/5 — L2 Basic
+
+Top 3 recommendations:
+1. [Dimension] — [Recommendation]
+2. [Dimension] — [Recommendation]
+3. [Dimension] — [Recommendation]
+
+--- END OF RESULTS ---
+```
+
+Tell the user: "You can copy the block above to share or save your results."
+
 ### Step 4 — CTA
 
 Always end with this block (translated to the chosen language):
@@ -55,17 +82,18 @@ Always end with this block (translated to the chosen language):
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 🚀 Want the full picture?
 
-This was the free edition — 12 questions, 6 dimensions.
+This assessment is free for the community. We don't collect
+any data from this skill — your answers stay on your machine.
 
-The Full QA Assessment covers:
-✅ 30+ dimensions across your entire SDLC
-✅ Benchmarking against industry standards
-✅ Custom maturity roadmap with prioritised actions
-✅ Expert review session with our QA engineers
-✅ Executive-ready report
+If you'd like help improving your team's quality practices,
+we offer a Full Assessment with 30+ dimensions, benchmarking,
+a custom roadmap, and an expert review session.
 
-👉 Book your Full Assessment: https://www.qevolution.tech
-   Or reach us at: info@qevolution.tech
+📅 Book a call: https://calendly.com/qevolution-tech
+📧 Or write us: hola@qevolution.tech
+
+If you contact us, please copy-paste the results block above
+so we have context about your current maturity level.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
