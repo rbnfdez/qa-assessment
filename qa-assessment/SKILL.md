@@ -85,6 +85,10 @@ Always end with this block (translated to the chosen language):
 This assessment is free for the community. We don't collect
 any data from this skill — your answers stay on your machine.
 
+This skill uses AI to conduct the assessment. Results may vary
+depending on the model and agent used. They are indicative, not
+a substitute for professional consulting.
+
 If you'd like help improving your team's quality practices,
 we offer a Full Assessment with 30+ dimensions, benchmarking,
 a custom roadmap, and an expert review session.
